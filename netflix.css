@@ -6,64 +6,75 @@
     scroll-behavior: smooth;
 }
 
-* a{
+* a
+{
     color: white;
     text-decoration: none;
 }
 
-body{
+body
+{
     background-color: black;
 }
 
-.backgroundContainer{
+.backgroundContainer
+{
     background-image: url("./bannerImage.jpg");
     filter: blur(16px);
     height: 100vh;
     position: relative;
 }
 
-.pinkOverlay{
+.pinkOverlay
+{
     background-color: rgba(104, 3, 20, 0.404);
     height: 100%;
     width: 100%;
 }
 
-.contentContainer{
+.contentContainer
+{
     position: absolute;
     top: 0;
     background-color: rgba(0, 0, 0, .5);
     padding: 0rem 2rem;
 }
 
-nav{
+nav
+{
     /* border: 2px solid green; */
     height: 20vh;
     position: fixed;
     z-index: 10000;
 }
 
-.upperNavbarSection{
+.upperNavbarSection
+{
     /* border: 2px solid blue; */
     display: flex;
     height: 50%;
 }
 
-.upperNavbarLeftSection{
+.upperNavbarLeftSection
+{
     /* border: 2px solid red; */
     width: 50%;
 
 }
 
-.netflixLogo{
+.netflixLogo
+{
     width: 29%;
 }
 
-.upperNavbarRightSection{
+.upperNavbarRightSection
+{
     /* border: 2px solid green; */
     width: 50%;
 }
 
-.navBarButtonContainer{
+.navBarButtonContainer
+{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -71,7 +82,8 @@ nav{
     height: 100%;
 }
 
-.languageButton{
+.languageButton
+{
     display: flex;
     padding: .4rem .8rem;
     border-radius: 50px;
@@ -83,7 +95,8 @@ nav{
 
 }
 
-.signinButton{
+.signinButton
+{
     background-color: #fff;
     padding: .4rem .8rem;
     border-radius: 50px;
@@ -94,11 +107,13 @@ nav{
 
 }
 
-.languageButton p{
+.languageButton p
+{
     margin-left: 5px;
 }
 
-.lowerNavbarSection{
+.lowerNavbarSection
+{
     /* border: 2px solid red; */
     height: 50%;
     color: white;
@@ -106,7 +121,8 @@ nav{
     justify-content: center;
 }
 
-.menuList{
+.menuList
+{
     /* border: 2px solid green; */
     width: 40%;
     list-style: none;
@@ -119,18 +135,21 @@ nav{
     height: 7vh;
 }
 
-.menuList li{
+.menuList li
+{
     /* border: 2px solid red; */
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.sectionsContainer{
+.sectionsContainer
+{
     margin-top: 20vh;
 }
 
-.bannerSection{
+.bannerSection
+{
     /* border: 2px solid red; */
     height: 90vh;
     background-image: url("./bannerImage.jpg");
@@ -139,7 +158,8 @@ nav{
     position: relative;
 }
 
-.overlay{
+.overlay
+{
     height: 100%;
     width: 100%;
     background-image: linear-gradient( rgba(0,0,0,.3),rgba(0,0,0,.7), black );
@@ -147,7 +167,8 @@ nav{
 
 }
 
-.bannerContainer{
+.bannerContainer
+{
     /* border: 2px solid red; */
     height: 80%;
     width: 100%;
@@ -160,30 +181,35 @@ nav{
     align-items:center ;
 }
 
-.bannerContainer h2{
+.bannerContainer h2
+{
     font-size: 4rem;
     width: 50%;
     text-align: center;
 }
 
-.bannerContainer h4{
+.bannerContainer h4
+{
     font-size: 1.5rem;
     margin: 20px;
 }
 
-.bannerContainer p{
+.bannerContainer p
+{
     font-size: 1rem;
     margin: 20px;
 }
 
-.inputContainer{
+.inputContainer
+{
     /* border: 2px solid green; */
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
 
-.emailInputBox{
+.emailInputBox
+{
     padding: 1rem 2rem;
     border-radius: 50px;
     border: 1px solid white;
@@ -194,12 +220,14 @@ nav{
     font-size: 1rem;
 }
 
-.emailInputBox::placeholder{
+.emailInputBox::placeholder
+{
     color: white;
 }
 
-.getStartedButton{
-    width: 30%;
+.getStartedButton
+{
+    width: 50%;
     background-color: red;
     border: none;
     outline: none;
@@ -213,7 +241,8 @@ nav{
 .planSection,
 .reasonToJoinSection,
 .faqSection,
-.getStartedSection{
+.getStartedSection
+{
     /* border: 2px solid red; */
     color: white;
     
@@ -222,7 +251,8 @@ nav{
 .carouselSection h2,
 .planSection h2,
 .reasonToJoinSection h2,
-.faqSection h2{
+.faqSection h2
+{
     /* border: 2px solid red; */
     margin-left: 5rem;
     font-size: 2.5rem;
@@ -231,7 +261,8 @@ nav{
 .carouselCardConatiner,
 .plansConatiner,
 .reasonsConatiner,
-.faqCardsContainer{
+.faqCardsContainer
+{
     /* border: 2px solid green; */
     height: 100%;
     width: 90%;
@@ -241,7 +272,8 @@ nav{
 }
 
 
-.carouselCard{
+.carouselCard
+{
     width: 12%;
     /* border: 2px solid yellow; */
     height: 38vh;
@@ -249,30 +281,35 @@ nav{
     position: relative;
 }
 
-.carouselNumberContainer{
+.carouselNumberContainer
+{
     position: absolute;
     left: -20px;
 }
 
-.carouselNumberContainer span{
+.carouselNumberContainer span
+{
     color: rgba(0, 0, 0, 0.8);
     -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
     text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
     font-size: 4rem;
 }
 
-.carouselImageContainer{
+.carouselImageContainer
+{
     width: 100%;
     height: 100%;
 }
 
-.carouselImageContainer img{
+.carouselImageContainer img
+{
     width: 100%;
     height: 100%;
     border-radius: 20px;
 }
 
-.planCard, .reasonCard{
+.planCard, .reasonCard
+{
     /* border: 2px solid green; */
     height: 38vh;
     width: 23%;
@@ -285,68 +322,82 @@ nav{
 
 }
 
-.planCard1{
+.planCard1
+{
     background: linear-gradient(149deg, #1C4072 6.96%, #172B47 40.17%, #120c1f 73.39%);
 }
 
-.planCard2{
+.planCard2
+{
     background: linear-gradient(149deg, #1D529D 6.96%, #233371 40.17%, #120c1f 73.39%);
 }
 
-.planCard3{
+.planCard3
+{
     background: linear-gradient(149deg, #792A95 6.96%, #38216C 40.17%, #120c1f 73.39%);
 }
 
-.planCard4{
+.planCard4
+{
     background: linear-gradient(149deg, #922556 6.96%, #391945 40.17%, #120c1f 73.39%);
 }
 
-.planCard h2{
+.planCard h2
+{
     margin-left: 0;
     font-size: 1.5rem;
 }
 
-.planCard h4{
+.planCard h4
+{
     font-size: 1.3rem;
 }
 
-.planCard p{
+.planCard p
+{
     font-size: 1rem;
 }
 
-.reasonCard{
+.reasonCard
+{
     background: rgb(47, 47, 47);
     border: none;
     height: 33vh;
 }
 
-.reasonCard h2{
+.reasonCard h2
+{
     font-size: 1.5rem;
     margin-left: 0;
     margin-bottom: 10px;
 }
 
-.reasonCard p{
+.reasonCard p
+{
     font-size: 0.9rem;
 }
 
-.reasonCardLowerContent{
+.reasonCardLowerContent
+{
     display: flex;
     justify-content: end;
 }
 
-.reasonCardLowerContent svg{
+.reasonCardLowerContent svg
+{
     height: 50px;
     width: 50px;
 }
 
-.faqCard{
+.faqCard
+{
     /* border: 2px solid red; */
     width: 100%;
 }
 
 .faqQuestion,
-.faqAnswer{
+.faqAnswer
+{
     padding: 2rem;
     border-radius: 10px;
     /* border: 1px solid white; */
@@ -354,36 +405,42 @@ nav{
     background-color: #2e2e2e;
 }
 
-.faqQuestion{
+.faqQuestion
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.faqQuestion span{
+.faqQuestion span
+{
     font-size: 2rem;
     font-weight: 900;
 }
-.faqAnswer {
+.faqAnswer 
+{
     display: none;
 
 }
 
-.faqCard:hover{
+.faqCard:hover
+{
     cursor: pointer;
 }
 
-/* Jab faqQuestion p hover ho toh faqAnswer dikh jaye */
-.faqCard:hover .faqAnswer {
+.faqCard:hover .faqAnswer 
+{
     display: block;
     cursor: pointer;
 }
 
-.faqCardsContainer{
+.faqCardsContainer
+{
     flex-direction: column;
 }
 
-.getStartedSection{
+.getStartedSection
+{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,6 +448,7 @@ nav{
     margin-bottom: 2rem;
 }
 
-.getStartedSection p{
+.getStartedSection p
+{
     margin-bottom: 1rem
 }
